@@ -27,8 +27,8 @@ include(cmake/CPM.cmake)
 ##### C++ Compiler Setup
 #####
 #############################################################################################
-set(CMAKE_CXX_STANDARD 20)
-set(PYBIND11_CPP_STANDARD /std:c++20) # Enables some MSVC C++17 features
+set(CMAKE_CXX_STANDARD 17)
+set(PYBIND11_CPP_STANDARD /std:c++17) # Enables some MSVC C++17 features
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_C_STANDARD 11)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
