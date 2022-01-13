@@ -1,5 +1,5 @@
 # python-screen-capture-lite
-**NB: Currently only for Linux systems With X11**
+**NB: Currently only for Linux systems with X11**
 
 ## Requirements
 * pybind11 >= 2.9.0
