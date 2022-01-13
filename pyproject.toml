@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-screen-capture-lite"
+version = "0.1.0"
+description = ""
+authors = ["Per-Arne Andersen <per@sysx.no>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools>=42", "ninja", "pybind11", "numpy"]
+build-backend = "setuptools.build_meta"
+
